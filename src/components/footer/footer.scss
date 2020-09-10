@@ -1,0 +1,35 @@
+.footer {
+  position: relative;
+  height: 83px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__box {
+  width: 33px;
+  height: 33px;
+  margin-right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .facebook, .twitter, .youtube, .reddit {
+    height: 1.3vw;
+  }
+  .footer {
+    height: 8.3vw;
+  }
+  .footer__box {
+    width: 3.3vw;
+    height: 3.3vw;
+    margin-right: 1.2vw;
+
+  }
+}
+

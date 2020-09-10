@@ -1,0 +1,150 @@
+{
+  "data": [
+    {
+      "id": "dc92a089-821c-4c5a-857e-44e93dbcc6ac",
+      "release": "Mar 2019",
+      "manufactured": "Bitmain",
+      "model": "S9i",
+      "hash": "10.5-14.5 th/s",
+      "algorithm": "SHA-256",
+      "efficiency": "8.0j/H/s",
+      "profit": 122.88,
+      "priceFrom": 137.00,
+      "priceTo": 217.00
+    },
+    {
+      "id": "14966816-6db9-4f1c-83e9-50e5415e29e5",
+      "release": "Mar 2019",
+      "manufactured": "Bitmain",
+      "model": "S9i",
+      "hash": "10.5-14.5 th/s",
+      "algorithm": "SHA-256",
+      "efficiency": "8.0j/H/s",
+      "profit": 122.88,
+      "priceFrom": 137.00,
+      "priceTo": 217.00
+    },
+    {
+      "id": "82690689-d6ad-417c-9037-7250787470d",
+      "release": "Mar 2019",
+      "manufactured": "Bitmain",
+      "model": "S9i",
+      "hash": "10.5-14.5 th/s",
+      "algorithm": "SHA-256",
+      "efficiency": "8.0j/H/s",
+      "profit": 122.88,
+      "priceFrom": 137.00,
+      "priceTo": 217.00
+    },
+    {
+      "id": "c7b144ad-dda4-4b68-ae8c-324456cdb09f",
+      "release": "Mar 2019",
+      "manufactured": "Bitmain",
+      "model": "S9i",
+      "hash": "10.5-14.5 th/s",
+      "algorithm": "SHA-256",
+      "efficiency": "8.0j/H/s",
+      "profit": 122.88,
+      "priceFrom": 137.00,
+      "priceTo": 217.00
+    },
+    {
+      "id": "fda267f8-d216-46cd-80eb-b5c31f88308e",
+      "release": "Mar 2019",
+      "manufactured": "Bitmain",
+      "model": "S9i",
+      "hash": "10.5-14.5 th/s",
+      "algorithm": "SHA-256",
+      "efficiency": "8.0j/H/s",
+      "profit": 122.88,
+      "priceFrom": 137.00,
+      "priceTo": 217.00
+    },
+    {
+      "id": "35c3f51b-fce4-4b9d-bce7-b7d1d2e15d31",
+      "release": "Mar 2019",
+      "manufactured": "Bitmain",
+      "model": "S9i",
+      "hash": "10.5-14.5 th/s",
+      "algorithm": "SHA-256",
+      "efficiency": "8.0j/H/s",
+      "profit": 122.88,
+      "priceFrom": 137.00,
+      "priceTo": 217.00
+    },
+    {
+      "id": "ec58ff4e-cddb-463a-ba89-50213c37cc7f",
+      "release": "Mar 2019",
+      "manufactured": "Bitmain",
+      "model": "S9i",
+      "hash": "10.5-14.5 th/s",
+      "algorithm": "SHA-256",
+      "efficiency": "8.0j/H/s",
+      "profit": 122.88,
+      "priceFrom": 137.00,
+      "priceTo": 217.00
+    },
+    {
+      "id": "78db951d-5864-463b-a125-926d4bd973bd",
+      "release": "Mar 2019",
+      "manufactured": "Bitmain",
+      "model": "S9i",
+      "hash": "10.5-14.5 th/s",
+      "algorithm": "SHA-256",
+      "efficiency": "8.0j/H/s",
+      "profit": 122.88,
+      "priceFrom": 137.00,
+      "priceTo": 217.00
+    },
+    {
+      "id": "a5975636-805f-4a24-90d9-b68f0bd3fa51",
+      "release": "Mar 2019",
+      "manufactured": "Bitmain",
+      "model": "S9i",
+      "hash": "10.5-14.5 th/s",
+      "algorithm": "SHA-256",
+      "efficiency": "8.0j/H/s",
+      "profit": 122.88,
+      "priceFrom": 137.00,
+      "priceTo": 217.00
+    },
+    {
+      "id": "2c6ef6fc-b906-4644-aca1-150342158b92",
+      "release": "Mar 2019",
+      "manufactured": "Bitmain",
+      "model": "S9i",
+      "hash": "10.5-14.5 th/s",
+      "algorithm": "SHA-256",
+      "efficiency": "8.0j/H/s",
+      "profit": 122.88,
+      "priceFrom": 137.00,
+      "priceTo": 217.00
+    }
+,
+    {
+      "id": "7e02f885-05d7-4469-bfef-5e56befcc1bb",
+      "release": "Mar 2019",
+      "manufactured": "Bitmain",
+      "model": "S9i",
+      "hash": "10.5-14.5 th/s",
+      "algorithm": "SHA-256",
+      "efficiency": "8.0j/H/s",
+      "profit": 122.88,
+      "priceFrom": 137.00,
+      "priceTo": 217.00
+    },
+    {
+      "id": "3615abbf-3416-4768-b228-eaaa018e6280",
+      "release": "Mar 2019",
+      "manufactured": "Bitmain",
+      "model": "S9i",
+      "hash": "10.5-14.5 th/s",
+      "algorithm": "SHA-256",
+      "efficiency": "8.0j/H/s",
+      "profit": 122.88,
+      "priceFrom": 137.00,
+      "priceTo": 217.00
+    }
+
+  ]
+}

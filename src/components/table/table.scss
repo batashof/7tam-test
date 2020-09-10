@@ -1,0 +1,130 @@
+%table__box-dot {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 0 14px;
+  width: 100%;
+  td:nth-child(3) {
+    display: none;
+  }
+  th {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    &:first-child {
+      border-left: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    &:last-child {
+      border-right: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  }
+
+  td, th {
+
+    position: relative;
+    text-align: center;
+    &:first-child {
+      &:after {
+        @extend %table__box-dot;
+        left: 0;
+        top: 0;
+      }
+      &:before {
+        @extend %table__box-dot;
+        left: 0;
+        bottom: 0;
+      }
+    }
+    &:last-child {
+      &:after {
+        @extend %table__box-dot;
+        right: 0;
+        top: 0;
+      }
+      &:before {
+        @extend %table__box-dot;
+        right: 0;
+        bottom: 0;
+      }
+    }
+
+  }
+}
+
+.table__head-row {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.table__body-row {
+  background-color: rgba(255, 255, 255, 0.05);
+
+  &:nth-child(2n + 1) {
+    background-color: rgba(255, 255, 255, 0.1);
+
+  }
+}
+
+.table__box-filter {
+  position: absolute;
+  background-color: white;
+  opacity: 0.1;
+}
+
+.table__box-dot_lt {
+  left: 0;
+  top: 0;
+}
+
+.table__box-dot_rt {
+  right: 0;
+  top: 0;
+}
+
+.table__box-dot_rb {
+  right: 0;
+  bottom: 0;
+}
+
+.table__box-dot_lb {
+  left: 0;
+  bottom: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .table {
+    td:nth-child(4), th:nth-child(4), td:nth-child(8), th:nth-child(8) {
+      display: none;
+    }
+  }
+
+}
+
+@media screen and (max-width: 1023px) {
+  %table__box-dot {
+    width: 0.2vw;
+    height: 0.2vw;
+  }
+  .table {
+    border-spacing: 0 1.4vw;
+    th {
+      height: 3.3vw !important;
+    }
+
+    td {
+      height: 4.3vw !important;
+    }
+  }
+  .table__head-row {
+    height: 3.3vw !important;
+  }
+
+  .table__body-row {
+    height: 4.3vw !important;
+  }
+}
