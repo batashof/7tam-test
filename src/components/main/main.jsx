@@ -52,7 +52,7 @@ const Main = ({getData, data, addToCart}) => {
                             </div>
 
                             <div className="main-mobile__box-image">
-                                <img width="50%" src={logo}/>
+                                <img alt="logo" width="50%" src={logo}/>
                             </div>
                             <div className="title main-mobile__box-price">
                                 {row.price}

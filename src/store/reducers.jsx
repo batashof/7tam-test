@@ -22,7 +22,8 @@ const styleData = (data) => {
             item.price = <div style={{color: "white"}}>{item.priceFrom}$ - {item.priceTo}$</div>;
             delete item.priceFrom;
             delete item.priceTo;
-            newData.push({"star": <Star className="star"/>, "arrow": <Arrow className="arrow"/>, ...item})
+            newData.push({"star": <Star className="star"/>, "arrow": <Arrow className="arrow"/>, ...item});
+        return newData;
         }
     );
     return newData;
